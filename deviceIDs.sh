@@ -1,3 +1,5 @@
+#!/bin/sh
+
 xcrunReturn=$(xcrun simctl list)
 
 declare -a saveText=()
